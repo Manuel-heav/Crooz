@@ -3,11 +3,13 @@ import { cta } from '../assets'
 
 const Hero = () => {
   return (
-    <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-screen flex justify-between items-center md:px-0'>
+      <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-[80vh] flex flex-col md:flex-row justify-between items-center md:px-0'>
         <div>
-          <h2 className="text-4xl font-extrabold">Payments tool for companies</h2>
-          <p className="my-4 text-lg text-gray-500">Start developing with an open-source library of over 450+ UI components, sections, and pages built with the utility classes from Tailwind CSS and designed in Figma.</p>
-          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">Deliver great service experiences fast - without the complexity of traditional ITSM solutions. Accelerate critical development work, eliminate toil, and deploy changes with ease.</p>
+          <h2 className="text-4xl font-extrabold">Reliable Rides, Reassured Parents</h2>
+          <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400">Better Transportation</span></h1>
+          <p className="my-4 text-lg text-gray-500">
+          Crooz links responsible drivers with parents, ensuring secure school commutes. Prioritizing safety, we offer a seamless and dependable experience, transforming daily journeys.</p>
+          <p className="mb-4 text-lg font-normal text-gray-500 dark:text-gray-400">Prioritizing safety and efficiency, it's the go-to choice for reliable transportation.</p>
           <a href="#" className="inline-flex items-center text-lg text-[#DB7C26] dark:text-[#DB7C26] hover:underline">
           Read more
           <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
@@ -16,7 +18,10 @@ const Hero = () => {
           </a>
       </div>
 
-      <img src={cta} height={500} />
+      <div>
+        <img src={cta} className='w-[100%] h-[100%] relative z-[5]'/>
+
+      </div>
     </div>
   )
 }

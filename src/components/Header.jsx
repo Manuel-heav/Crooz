@@ -8,7 +8,7 @@ const Header = () => {
     const handleClick = () => setToggle(!toggle)
 
   return (
-    <div className='w-full h-[80px] bg-white border-b'>
+    <div className='w-full h-[80px] bg-white border-b z-[4]'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-0 px-4'>
             
             <Link to="/">
