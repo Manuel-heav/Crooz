@@ -25,6 +25,8 @@ import hamburgerMenu from "./hamburgerMenu.svg";
 import rocket from "./rocket.jpg";
 import ground from "./ground.jpg";
 import showcase from "./showcase.svg";
+import bus from "./bus.png";
+import girlwalking from "./girlwalking.png";
 
 export {
   showcase,
@@ -54,4 +56,6 @@ export {
   people02,
   people03,
   hamburgerMenu,
+  bus,
+  girlwalking,
 };
