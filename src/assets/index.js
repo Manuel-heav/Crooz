@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import avatar from "./avatar.png";
+import quotationMark from "./quotationMark.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
@@ -24,6 +26,8 @@ import rocket from "./rocket.jpg";
 import ground from "./ground.jpg";
 
 export {
+  quotationMark,
+  avatar,
   ground,
   rocket,
   cta,

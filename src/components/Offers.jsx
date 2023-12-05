@@ -52,7 +52,7 @@ const Offers = () => {
             <Slider {...settings} className='px-5'>
               {offers.map((offer,i)=>
                 <div key={i}>
-                  <Card course={offer} />
+                  <Card offer={offer} />
                 </div> ) }
             </Slider>
             

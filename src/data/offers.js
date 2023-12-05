@@ -1,76 +1,47 @@
 export const offers = [
   {
     id: 1,
-    title: "The Complete Flutter Development Bootcamp with Dart",
-    category: "Flutter",
-    rating: 5,
-    price: "$59.99",
+    title: "The most common option: Taxi",
+    category: "Taxi",
+    rating: 4,
+    price: "1000 ETB/month",
     linkImg:
-      "https://imgs.search.brave.com/YrWdDcc30vLk1ujOOb2T7YspGn9p6AsTC4LbTGaWiJI/rs:fit:480:270:1/g:ce/aHR0cHM6Ly93ZWVr/Y291cnNlcmV2aWV3/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNS9mbHV0/dGVyLWJvb3RjYW1w/LXdpdGgtZGFydC1p/bWcuanBn",
+      "https://i.pinimg.com/564x/f3/d7/6e/f3d76e717c4a8357151f43b168f330fa.jpg",
   },
   {
     id: 2,
-    title: "The Complete 2023 Web Development Bootcamp",
-    category: "Web Dev",
-    rating: 4,
-    price: "$59.99",
+    title: "Smaller amount of students",
+    category: "Lada",
+    rating: 3,
+    price: "1500 ETB/month",
     linkImg:
-      "https://imgs.search.brave.com/ZkwGbElTOq8Zo7NeRU669-o016O6XSLJftZZ5I--HJg/rs:fit:750:422:1/g:ce/aHR0cHM6Ly9kaXNj/b3VudHNlcmllcy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjAvMTEvMTAwLWRh/eXMtb2YtY29kZS10/aGUtY29tcGxldGUt/cHl0aG9uLXByby1i/b290Y2FtcC1mb3It/MjAyMi1jb3Vyc2Uu/anBn",
+      "https://i.pinimg.com/564x/27/af/bf/27afbf193108f3980677b8ef21052984.jpg",
   },
   {
     id: 3,
-    title:
-      "Learn Python: The Complete Python Programming CourseLearn A-Z everything about Python, from the basics, to advanced topics like Python GUI, Python Data Analysis, and more!",
-    category: "Python",
-    rating: 4,
-    price: "$59.99",
+    title: "More Comfortable Option For Children",
+    category: "Ride",
+    rating: 5,
+    price: "2000 ETB/month",
     linkImg:
-      "https://imgs.search.brave.com/Nhj_cLAZOWcUjlnR8QMX8A02rX-2RYra9w-0j-B9Rbg/rs:fit:750:422:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IxLzJi/L2NjL2IxMmJjYzA4/YmQ4YzlhOTFjMmM5/NjY3ZTM5NzE1NzA0/LmpwZw",
+      "https://i.pinimg.com/564x/9d/2a/86/9d2a86f1099ab8cbfeb7c46815db11c3.jpg",
   },
   {
     id: 4,
-    title: "The Complete JavaScript Course 2023: From Zero to Expert!",
-    category: "Javascript",
-    rating: 4,
-    price: "$59.99",
+    title: "Longer Distances, Relatively Uncomfortable",
+    category: "Normal Bus",
+    rating: 2,
+    price: "1200 ETB/month",
     linkImg:
-      "https://imgs.search.brave.com/ERyn_YUVTbB0slaulPioLMmU7Zto9A8aCA6OPptRZkI/rs:fit:768:432:1/g:ce/aHR0cHM6Ly9jb3Vy/c2Vjb3Vwb25jbHVi/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMS8wMy84NTE3/MTJfZmM2MV82LTc2/OHg0MzIuanBn",
+      "https://i.pinimg.com/564x/b8/9b/56/b89b56bae00641148e768552a70be5b6.jpg",
   },
   {
     id: 5,
-    title: "Cuphead",
-    category: "Flutter",
-    rating: 4,
-    price: "$19.99",
+    title: "Very Comfortable, Preferrable Choice For Students",
+    category: "School Bus",
+    rating: 5,
+    price: "2500 ETB/month",
     linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/c/cuphead-switch/hero?_a=AJADJWI0",
-  },
-  {
-    id: 6,
-    title: "Minecraft",
-    category: "Flutter",
-    rating: 4,
-    price: "$29.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/minecraft-switch/hero?_a=AJADJWI0",
-  },
-  {
-    id: 7,
-    title: "Mario + Rabbids® Kingdom Battle",
-    category: "Flutter",
-    rating: 4,
-    price: "$59.99",
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0",
-  },
-  {
-    id: 8,
-    title: "Unravel Two",
-    category: "Flutter",
-    rating: 4,
-    price: "$59.99",
-    sale: 63,
-    linkImg:
-      "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/u/unravel-two-switch/hero?_a=AJADJWI0",
+      "https://i.pinimg.com/564x/b9/e6/79/b9e67978225106245bcaa5cfbac59e24.jpg",
   },
 ];
