@@ -24,8 +24,10 @@ import cta from "./cta.png";
 import hamburgerMenu from "./hamburgerMenu.svg";
 import rocket from "./rocket.jpg";
 import ground from "./ground.jpg";
+import showcase from "./showcase.svg";
 
 export {
+  showcase,
   quotationMark,
   avatar,
   ground,

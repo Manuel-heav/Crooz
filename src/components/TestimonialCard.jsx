@@ -2,7 +2,6 @@ import React from 'react'
 import { quotationMark } from '../assets'
 
 const TestimonialCard = ({testimonial}) => {
-  console.log(testimonial)
   return (
     <div className='bg-white p-8 rounded-3xl shadow-xl my-8 mx-2'>
       <div className='flex justify-between'>

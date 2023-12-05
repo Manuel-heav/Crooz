@@ -1,11 +1,17 @@
 import React, { useState } from 'react';
 import { hamburgerMenu, close } from '../assets'
 import { Link } from 'react-router-dom';
+import {motion} from 'framer-motion'
 
 const Header = () => {
 
     const [toggle,setToggle] = useState(false)
     const handleClick = () => setToggle(!toggle)
+
+    const variants = {
+        open: { opacity: 1, x: 0 },
+        closed: { opacity: 0, x: "-100%" },
+      }
 
   return (
     <div className='w-full h-[80px] bg-white border-b z-[4]'>
@@ -34,7 +40,8 @@ const Header = () => {
 
 
             <div className='hidden md:flex'>
-               <Link to="/sign-in"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>Sign Up For Free</button></Link>
+               <Link to="/sign-in"><motion.button whileHover={{ scale: 1.1 }}
+    whileTap={{ scale: 0.9 }}    className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>Sign Up For Free</motion.button></Link>
             </div>
 
             <div className='md:hidden'  onClick={handleClick}>

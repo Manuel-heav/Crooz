@@ -1,5 +1,6 @@
 import React from 'react'
-import { cta, ground } from '../assets'
+import { cta, ground, showcase } from '../assets'
+import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
@@ -19,9 +20,11 @@ const Hero = () => {
           </a>
       </div>
 
-      <div  className='flex-3'>
-        <img src={cta} className='w-[100%] h-[100%] relative z-[5]'/>
-      </div>
+      <motion.div 
+       className='flex-3'
+       >
+        <img src={showcase} className='w-[100%] h-[100%] relative z-[5]'/>
+      </motion.div>
     </div>
         <img src={ground}  className='opacity-[.4]'/>
     </div>
