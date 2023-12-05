@@ -20,8 +20,12 @@ import people03 from "./people03.png";
 import lock from "./lock.svg";
 import cta from "./cta.png";
 import hamburgerMenu from "./hamburgerMenu.svg";
+import rocket from "./rocket.jpg";
+import ground from "./ground.jpg";
 
 export {
+  ground,
+  rocket,
   cta,
   lock,
   logo,

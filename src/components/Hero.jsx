@@ -1,11 +1,12 @@
 import React from 'react'
-import { cta } from '../assets'
+import { cta, ground } from '../assets'
 
 const Hero = () => {
   return (
-      <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-[80vh] flex flex-col md:flex-row justify-between items-center md:px-0'>
-        <div>
-          <h2 className="text-4xl font-extrabold">Reliable Rides, Reassured Parents</h2>
+    <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full md:px-0 px-4'>
+      <div className='h-[70vh] flex flex-col md:flex-row justify-between items-center md:px-0'>
+        <div className='flex-2'>
+          <h2 className="text-4xl md:mt-0 mt-10 font-extrabold">Reliable Rides, Reassured Parents</h2>
           <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400">Better Transportation</span></h1>
           <p className="my-4 text-lg text-gray-500">
           Crooz links responsible drivers with parents, ensuring secure school commutes. Prioritizing safety, we offer a seamless and dependable experience, transforming daily journeys.</p>
@@ -18,10 +19,11 @@ const Hero = () => {
           </a>
       </div>
 
-      <div>
+      <div  className='flex-3'>
         <img src={cta} className='w-[100%] h-[100%] relative z-[5]'/>
-
       </div>
+    </div>
+        <img src={ground}  className='opacity-[.4]'/>
     </div>
   )
 }

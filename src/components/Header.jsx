@@ -17,16 +17,16 @@ const Header = () => {
             
             <div className='hidden md:flex items-center '>
                 <ul className='flex gap-4'>
-                    <li>
+                    <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
+                    <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
                         <Link to="/about">About</Link>
                     </li>
-                    <li>
+                    <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
                         <Link to="/testimonial">Testimonial</Link>
                     </li>
-                    <li>
+                    <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
                         <Link to="/pricing">Pricing</Link>
                     </li>
                 </ul>
