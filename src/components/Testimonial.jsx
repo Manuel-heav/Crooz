@@ -46,7 +46,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className='w-full bg-white py-20'>
+    <div className='w-full bg-white py-20' id='testimonial'>
         <div className='md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-0'>
             <div className='py-4'>
             <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400 py-3 text-5xl font-bold">Parents' Feedback</span></h1>

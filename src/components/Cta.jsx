@@ -10,7 +10,7 @@ const Cta = () => {
         <div>
             <h1 className='py-2  text-3xl font-semibold'>Join <span className='text-[#DB7C26]'>The Biggest Ethiopia's</span> Transportation agency</h1>
             <p className='py-2 text-lg text-gray-600'>Find Your Ideal Vehicle Now For Your Kids</p>
-            <Link to="/sign-in"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>Sign Up For Free</button></Link>
+            <Link to="/sign-in"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝግቡ</button></Link>
         </div>
     </div>
     

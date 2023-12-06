@@ -5,6 +5,9 @@ import Offers from '../../components/Offers'
 import Testimonial from '../../components/Testimonial'
 import Cta from '../../components/Cta'
 import Footer from '../../components/Footer'
+import HowItWorks from '../../components/HowItWorks'
+import About from '../../components/About'
+import Accordion from '../../components/Accordion'
 
 
 const Home = () => {
@@ -13,9 +16,12 @@ const Home = () => {
         <Header />
         <Hero />
 
-        <Offers />
         <Testimonial />
         <Cta />
+        <About />
+        <Offers />
+        <Accordion />
+        <HowItWorks />
         <Footer />
       </div>
   )

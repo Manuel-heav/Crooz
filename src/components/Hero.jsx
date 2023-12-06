@@ -1,5 +1,5 @@
 import React from 'react'
-import { bus, ground, girlwalking } from '../assets'
+import { bus, ground, background } from '../assets'
 import { motion } from "framer-motion"
 
 const Hero = () => {
@@ -25,7 +25,7 @@ const Hero = () => {
        className='flex-2'
        >
         <div className='flex'>
-            <img src={bus} className='w-[100%] h-[100%] relative z-[5]' />
+            <img src={background} className='w-[100%] h-[100%] relative z-[5]' />
         </div>
       </div>
     </div>

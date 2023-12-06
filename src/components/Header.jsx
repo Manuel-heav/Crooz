@@ -27,13 +27,13 @@ const Header = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
-                        <Link to="/about">About</Link>
+                        <a href="#about">About</a>
                     </li>
                     <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
-                        <Link to="/testimonial">Testimonial</Link>
+                        <a href="#testimonial">Testimonial</a>
                     </li>
                     <li className='hover:scale-[1.1] transition duration-700 ease-in-out'>
-                        <Link to="/pricing">Pricing</Link>
+                        <a href="#pricing">Pricing</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +41,7 @@ const Header = () => {
 
             <div className='hidden md:flex'>
                <Link to="/sign-in"><motion.button whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}    className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>Sign Up For Free</motion.button></Link>
+    whileTap={{ scale: 0.9 }}    className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝግቡ</motion.button></Link>
             </div>
 
             <div className='md:hidden'  onClick={handleClick}>
@@ -55,16 +55,16 @@ const Header = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li  className='p-4'>
-                        <Link to="/about">About</Link>
+                        <Link to="#about">About</Link>
                     </li>
                     <li  className='p-4'>
-                        <Link to="/testimonial">Testimonial</Link>
+                        <Link to="#testimonial">Testimonial</Link>
                     </li>
                     <li  className='p-4'>
-                        <Link to="/pricing">Pricing</Link>
+                        <a href="#pricing">Pricing</a>
                     </li>
                     <div className='flex flex-col my-4 gap-4'>
-                    <Link to="/sign-in"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>Sign Up For Free</button></Link>
+                    <Link to="/sign-in"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝግቡ</button></Link>
                     </div>
             </ul>
         </div>      
