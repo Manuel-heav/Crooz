@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <>
+    <div id="about">
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -613,26 +613,26 @@ const About = () => {
                   About
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
-                Safe Journeys, Happy Families.
+                አስተማማኝ ጉዞዎች፣ ደስተኛ ቤተሰቦች።
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
-                At Crooz, we are driven by a commitment to revolutionize transportation for families. Our story begins with a passion for connecting dedicated drivers with parents seeking a secure and dependable solution for their children's commuting needs. 
+                Crooz የሚመራው ለቤተሰቦች መጓጓዣን ለመለወጥ ባለው ቁርጠኝነት ነው። ታሪካችን የሚጀምረው ለልጆቻቸው የመጓጓዣ ፍላጎት አስተማማኝ መፍትሄ የሚፈልጉ ወላጆች ህጻናቶችን ከሚንከባከቡ አሽከርካሪዎችን የማገናኘት ፍላጎት ነው።
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
-                Welcome to Crooz, where we believe in creating connections that matter. Our About Us journey revolves around building a platform that links skilled and caring drivers with parents who prioritize safety. 
+                ወደ ክሩዝ እንኳን በደህና መጡ፣ አስፈላጊ የሆኑ ግንኙነቶችን በመፍጠር እናምናለን። የእኛ ስለ እኛ ጉዞ የሚያጠነጥነው ለደህንነት ቅድሚያ ከሚሰጡ ወላጆች ጋር የተካኑ እና ተንከባካቢ አሽከርካሪዎችን የሚያገናኝ መድረክ በመገንባት ላይ ነው። 
                 </p>
                 <a
                   href="javascript:void(0)"
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-[orange] hover:bg-opacity-90"
                 >
-                  Get Started
+                  አሁኑኑ ይመዝገቡ
                 </a>
               </div>
             </div>
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
