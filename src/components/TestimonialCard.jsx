@@ -17,7 +17,7 @@ const TestimonialCard = ({testimonial}) => {
       </div>
 
       <div className='py-8'>
-        <h3 className='text-lg'>{testimonial.comment}</h3>
+        <h3 className='text-lg amharic'>{testimonial.comment}</h3>
       </div>
     </div>
   )
