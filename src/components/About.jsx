@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className=" px-4 md:px-10">
+    <div id="about" className="px-4 md:px-10">
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
@@ -613,7 +613,7 @@ const About = () => {
                   About
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
-                አስተማማኝ ጉዞዎች፣ ደስተኛ ቤተሰቦች።
+                <span className="text-[orange]">አስተማማኝ ጉዞዎች፣ </span>ደስተኛ ቤተሰቦች።
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6">
                 Crooz የሚመራው ለቤተሰቦች መጓጓዣን ለመለወጥ ባለው ቁርጠኝነት ነው። ታሪካችን የሚጀምረው ለልጆቻቸው የመጓጓዣ ፍላጎት አስተማማኝ መፍትሄ የሚፈልጉ ወላጆች ህጻናቶችን ከሚንከባከቡ አሽከርካሪዎችን የማገናኘት ፍላጎት ነው።

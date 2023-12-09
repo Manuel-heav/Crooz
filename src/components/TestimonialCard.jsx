@@ -3,7 +3,7 @@ import { quotationMark } from '../assets'
 
 const TestimonialCard = ({testimonial}) => {
   return (
-    <div className='bg-white p-8 rounded-3xl shadow-xl my-8 mx-2'>
+    <div className='bg-[#dcb4a0] p-8 rounded-3xl shadow-xl my-8 mx-2'>
       <div className='flex justify-between'>
         <div className='flex gap-4'>
                 <img src={testimonial.profileImg} className='h-10 w-10 rounded-full'/>
@@ -13,7 +13,7 @@ const TestimonialCard = ({testimonial}) => {
                 </div>
             
             </div>
-            <img className='h-8' src={quotationMark} />
+            {/* <img className='h-8' src={quotationMark} /> */}
       </div>
 
       <div className='py-8'>

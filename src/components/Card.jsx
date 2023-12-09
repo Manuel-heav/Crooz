@@ -3,7 +3,7 @@ import StarRating from './StarRating'
 
 const Card = ({offer}) => {
   return (
-    <div className='z-10 bg-white drop-shadow-md overflow-hidden rounded-2xl mr-10  my-4'>
+    <div className='z-10 bg-[#ede7e4] drop-shadow-md overflow-hidden rounded-2xl mr-10  my-4'>
         <img src={offer.linkImg} 
                 className="h-40 w-full object-cover"
         

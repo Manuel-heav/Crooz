@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Accordion = () => {
   return (
-    <section className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+    <section className="relative z-20 overflow-hidden bg-[#ede7e4] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -10,8 +10,8 @@ const Accordion = () => {
               <span className="mb-2 block text-lg font-semibold text-primary">
                 FAQ
               </span>
-              <h2 className="mb-4 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
-                Any Questions? Look Here
+              <h2 className="mb-4 text-3xl font-bold text-dark sm:text-[40px]/[48px] text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400 amharic">
+                ጥያቄ አሎት?
               </h2>
               <p className="text-base text-body-color dark:text-dark-6">
                 There are many variations of passages of Lorem Ipsum available
@@ -101,7 +101,7 @@ const AccordionItem = ({ header, text }) => {
         className={`faq-btn flex w-full text-left`}
         onClick={() => handleToggle()}
       >
-        <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5 text-primary dark:bg-white/5">
+        <div className="mr-5 flex h-10 w-full max-w-[40px] items-center justify-center rounded-lg bg-primary/5  dark:bg-white/5">
           <svg
             className={`fill-primary stroke-primary duration-200 ease-in-out ${
               active ? "rotate-180" : ""
