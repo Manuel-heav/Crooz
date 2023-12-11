@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Accordion = () => {
   return (
-    <section className="relative z-20 overflow-hidden bg-[#ede7e4] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]">
+    <section className="relative z-20 overflow-hidden bg-[#d8c2b6] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
@@ -13,9 +13,8 @@ const Accordion = () => {
               <h2 className="mb-4 text-3xl font-bold text-dark sm:text-[40px]/[48px] text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400 amharic">
                 ጥያቄ አሎት?
               </h2>
-              <p className="text-base text-body-color dark:text-dark-6">
-                There are many variations of passages of Lorem Ipsum available
-                but the majority have suffered alteration in some form.
+              <p className="text-base text-body-color dark:text-dark-6 amharic">
+              እርስዎ ሊኖሩዎት ከሚችሉት አንዳንድ ጥያቄዎች ጋር የሚዛመዱ መሆናቸውን ለማየት በብዛት የሚጠየቁትን ጥያቄዎቻችንን ይመልከቱ።
               </p>
             </div>
           </div>
@@ -24,30 +23,30 @@ const Accordion = () => {
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="ከአገልግሎት ጋር በተያያዙ ጥያቄዎች ወይም ስጋቶች ውስጥ ወላጆች የ ክሩዝን የደንበኛ ድጋፍ ለማግኘት ምን ቻናሎች አሉ?"
+              text="ስለ መርሐግብር፣ የአሽከርካሪ ዝርዝሮች ወይም ስለማንኛውም ከአገልግሎት ጋር በተያያዙ ጉዳዮች ላይ ጥያቄዎች ካልዎት፣ ክሩዝ የስልክ ድጋፍን፣ ኢሜይልን እና የተወሰነ የውስጠ-መተግበሪያ መልዕክት መላላኪያ ባህሪን ጨምሮ በርካታ የግንኙነት ሰርጦችን ያቀርባል።"
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="ለወላጆች ለግል የተበጁ የመጓጓዣ ምርጫዎች ወይም ለልጆቻቸው ጉዞ ልዩ መስፈርቶች ከ ክሩዝ ጋር ለመወያየት የተለየ የግንኙነት ነጥብ አለ?"
+              text="ክሩዝ እያንዳንዱ ቤተሰብ ልዩ መሆኑን ተረድቷል፣ እና ስለ ግላዊ ምርጫዎች ወይም ልዩ መስፈርቶች ውይይቶችን በደስታ እንቀበላለን። ወላጆች በቀላሉ በመተግበሪያው የመልእክት መላላኪያ ባህሪ ወይም የኛን የድጋፍ ቡድን በመገናኘት እንደዚህ አይነት ዝርዝሮችን በቀላሉ ማሳወቅ ይችላሉ።"
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="የልጃቸውን የመጓጓዣ መርሃ ግብር በ ክሩዝ ማዘመን ወይም ማሻሻል ለሚያስፈልጋቸው ወላጆች የተለየ የመገናኛ መንገዶች አሉ?"
+              text="ክሮዝ መርሃ ግብሮች ሊለወጡ እንደሚችሉ ተረድቷል። ወላጆች ያለልፋት የልጃቸውን የመጓጓዣ መርሃ ግብር በመተግበሪያው ማዘመን ወይም ማሻሻል ይችላሉ። ለማንኛውም ተጨማሪ እርዳታ ወይም የጊዜ ሰሌዳ ለውጦችን ለመወያየት፣ ለእርስዎ እና ለልጅዎ እንከን የለሽ ልምድን ለማረጋገጥ የደንበኛ ድጋፍ ቡድናችን በኢሜይል ወይም በስልክ ይገኛል።"
             />
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="የወደፊት አሽከርካሪዎች የ ክሩዝ ቡድን አባል ለመሆን እንዴት ማመልከት ይችላሉ እና ዋናዎቹ ብቃቶች እና መስፈርቶች ምንድን ናቸው?"
+              text="ፍላጎት ያላቸው አሽከርካሪዎች ድረ-ገጻችንን በመጎብኘት የተዘጋጀላቸውን ፎርም በትክክል ይሞላሉ፡፡ በመቀጠል ከ 3-5 የስራ ቀናቶች የአሽከርካሪ ቅጥር ቡድናችን በኢሜይል ወይም በስልክ ማለፍ አለማለፍዎትን ያሳውቀዎታል፡፡ ንጹህ የማሽከርከር ሪከርድ፣ ለደህንነት ቁርጠኝነት እና ለልጆች አስተማማኝ መጓጓዣ ለማቅረብ እውነተኛ ፍቅር ያላቸውን ግለሰቦች እንፈልጋለን።"
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="ክሩዝ የሚያጓጉዙትን ልጆች ደህንነት ለማረጋገጥ በአሽከርካሪዎቹ ላይ የጀርባ ምርመራን እንዴት ያደርጋል?"
+              text="ክሩዝ ደህንነትን በቁም ነገር ይመለከታል፣ እና የእኛ ጥልቅ የጀርባ ፍተሻ የወንጀል ታሪክን፣ የመንዳት መዝገቦችን እና የማጣቀሻ ፍተሻዎችን ያካትታሉ። እኛ ወላጆች ልጆቻቸው ታማኝ እና ችሎታ ያላቸው እጆች ውስጥ መሆናቸውን ማረጋገጫ ለመስጠት ዓላማ እናደርጋለን።"
             />
             <AccordionItem
-              header="How long we deliver your first blog post?"
-              text="It takes 2-3 weeks to get your first blog post ready. That includes the in-depth research & creation of your monthly content marketing strategy that we do before writing your first blog post, Ipsum available ."
+              header="በአሽከርካሪዎች እና በሚያጓጉዟቸው ልጆች መካከል አዎንታዊ እና የተከበረ መስተጋብር እንዲኖር ክሩዝ ምን እርምጃዎች አሉት?"
+              text="ክሩዝ ለሁለቱም አሽከርካሪዎች እና ልጆች አዎንታዊ እና የተከበረ አካባቢን ለመፍጠር ከፍተኛ ትኩረት ይሰጣል። የስልጠና ፕሮግራሞቻችን የትራንስፖርት ልምዱን አስደሳች እና ለሁሉም ሰው ምቹ ለማድረግ ወዳጃዊ ከባቢ አየርን በማጎልበት የግንኙነት መመሪያዎችን ያካትታሉ።"
             />
           </div>
         </div>
@@ -60,7 +59,7 @@ const Accordion = () => {
           viewBox="0 0 1440 886"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-        >
+        >፟
           <path
             opacity="0.5"
             d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
@@ -113,14 +112,14 @@ const AccordionItem = ({ header, text }) => {
           >
             <path
               d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
-              fill=""
+              fill="orange"
               stroke=""
             />
           </svg>
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg font-semibold text-dark">
+          <h4 className="mt-1 text-lg font-semibold text-dark amharic">
             {header}
           </h4>
         </div>
@@ -131,7 +130,7 @@ const AccordionItem = ({ header, text }) => {
           active ? "block" : "hidden"
         }`}
       >
-        <p className="py-3 text-base leading-relaxed text-body-color dark:text-dark-6">
+        <p className="py-3 text-base leading-relaxed text-body-color dark:text-dark-6 amharic">
           {text}
         </p>
       </div>
