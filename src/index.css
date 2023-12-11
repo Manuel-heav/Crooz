@@ -185,11 +185,19 @@
  }
 
  @font-face{
+  font-family: nokia;
+  src: url(/public/Nokia\ Pureheadline\ Bold.ttf)
+ }
+ @font-face{
   font-family: ethiopia;
   src: url(/public/ETHIOPIA.TTF)
  }
 
  .amharic{
+  font-family: nokia;
+ }
+
+ .nokia{
   font-family: ethiopia;
  }
 
