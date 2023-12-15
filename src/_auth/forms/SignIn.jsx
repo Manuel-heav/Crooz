@@ -8,52 +8,52 @@ const SignIn = () => {
 <form>
     <div class="grid gap-6 mb-6 md:grid-cols-2 ">
         <div>
-            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:">Student's First Name</label>
+            <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:">Student's First Name (የተማሪው የመጀመሪያ ስም)</label>
             <input type="text" id="first_name" class="bg-gray-50 border border-gray-300  text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="John" required/>
         </div>
         <div>
-            <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:">Student's Last Name</label>
+            <label for="last_name" class="block mb-2 text-sm font-medium text-gray-900 dark:">Student's Last Name (የተማሪው የመጨረሻ ስም)</label>
             <input type="text" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Doe" required/>
         </div>
         <div>
-            <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:">Address</label>
+            <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:">Address (አድራሻ)</label>
             <input type="text" id="company" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Gullele" required/>
         </div>  
         <div>
-            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:">Parent's Phone Number</label>
+            <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:">Parent's Phone Number (የቤተሰብ ስልክ)</label>
             <input type="text" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="123-45-678"  required/>
         </div>
         <div>
-            <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 dark:">Grade</label>
+            <label for="visitors" class="block mb-2 text-sm font-medium text-gray-900 dark:">Grade (የክፍል ደረጃ)</label>
             <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required/>
         </div>
     </div>
     <div class="mb-6">
-        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:">Parents' Email Address (Optional)</label>
+        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:">Parents' Email Address (ኢሜይል) (Optional)</label>
         <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" />
     </div> 
     <div class="mb-6">
-        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">School Address</label>
+        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">School Address (የትምህርት ቤት አድራሻ)</label>
         <input type="text" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Bole" required/>
     </div> 
     
     <div class="mb-6">
       
-    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">Passport Sized Photo(student)</label>
+    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">Passport Sized Photo(student) (የተማሪ ፎቶ)</label>
 <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
 
     </div>
 
     <div class="mb-6">
       
-    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">Student ID photo</label>
+    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">Student ID photo (የተማሪ መታወቂያ ፎቶ)</label>
 <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
 
     </div>
 
     <div class="mb-6">
       
-    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">Parent Government ID</label>
+    <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:">Parent Government ID (የቤተሰብ መታወቂያ ፎቶ)</label>
 <input class="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
 
     </div>
