@@ -59,7 +59,7 @@ const SignIn = () => {
           });
       };
   return (
-    <div className='lg:pt-[20px] px-10 lg:px-80'>
+    <div className='lg:pt-[20px] px-10 lg:px-80 bg-[#ece2de]'>
      <h1 className='text-center text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-orange-600'>Parent Form Registration</h1>
      <p className='text-center text-sm mb-10 mt-2'>(We will get back to you shortly)</p> 
 <form>
