@@ -110,8 +110,8 @@ const SignIn = () => {
 
     <div className="mb-6">
       
-    <label onChange={(e) => {setParentId(e.target.files[0])}} htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:">Parent Government ID (የቤተሰብ መታወቂያ ፎቶ)</label>
-<input className="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
+    <label htmlFor="text" className="block mb-2 text-sm font-medium text-gray-900 dark:">Parent Government ID (የቤተሰብ መታወቂያ ፎቶ)</label>
+<input onChange={(e) => {setParentId(e.target.files[0])}} className="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
 
     </div>
     <div className="flex items-start mb-6">
