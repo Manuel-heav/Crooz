@@ -6,6 +6,9 @@ import {
   } from "firebase/storage";
 import { collection, addDoc } from 'firebase/firestore';
 import { storage, db } from '../../util/Firebase';
+import { Link } from 'react-router-dom';
+import Loader from '../../components/shared/Loader'
+import Submission from '../../components/shared/Submission'
 
 const Signup = () => {
 
@@ -22,13 +25,14 @@ const Signup = () => {
     const [libre, setLibre] = useState(null)
     const [photo, setPhoto] = useState(null)
     const [vehicle, setVehicle] = useState(null)
+    const [business, setBusiness] = useState(null)
 
     const [loading, setLoading] = useState(false); 
     const [formSubmitted, setFormSubmitted] = useState(false);
 
 
     const handleUpload = () => {
-        const imageInputs = [id, libre, photo, vehicle];
+        const imageInputs = [id, libre, photo, vehicle, business];
         setLoading(true);
       
         const uploadPromises = imageInputs.map((image) => {
@@ -44,7 +48,7 @@ const Signup = () => {
         Promise.all(uploadPromises)
           .then((urls) => {
             // All uploads are complete, proceed with database update
-            const [idUrl, libreUrl, photoUrl, vehicleUrl] = urls;
+            const [idUrl, libreUrl, photoUrl, vehicleUrl, businessUrl] = urls;
       
             addDoc(collection(db, 'driverForm'), {
                 firstName: firstName,
@@ -59,7 +63,8 @@ const Signup = () => {
                 idUrl: idUrl,
                 libreUrl: libreUrl,
                 photoUrl: photoUrl,
-                vehicleUrl: vehicleUrl
+                vehicleUrl: vehicleUrl,
+                businessUrl: businessUrl
               });
 
               setLoading(false);
@@ -74,14 +79,14 @@ const Signup = () => {
   return (
     <div className='lg:pt-[20px] pt-10 px-10 lg:px-80 bg-[#ece2de]'>
         {loading ? (
-        <div className="text-center mt-20">
-          <h1 className="text-2xl font-bold text-gray-700">Uploading...</h1>
-          <p className="text-lg mt-4">Please wait while we process your request.</p>
-        </div>
+        <Loader />
       ) :  !formSubmitted ? (
         <div>
                 <h1 className='text-center text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-orange-600'>Driver Form Registration</h1>
-                <p className='text-center text-sm mb-10 mt-2'>(Status will be pending until verified by admins)</p> 
+                <p className='text-center text-sm mt-2'>(Status will be pending until verified by admins)</p> 
+                <Link to={"/sign-up-as-a-parent"}>
+                    <p className='text-orange-600 hover:underline text-center mb-10 mt-2 '>Are you a parent? Register here!</p>
+                </Link>
                     <form>
                         <div className="grid gap-6 mb-6 md:grid-cols-2 ">
                             <div>
@@ -148,12 +153,22 @@ const Signup = () => {
                     <input onChange={(e) => {setVehicle(e.target.files[0])}}  className="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
 
                         </div>
-                        <div className="flex items-start mb-6">
+
+                        <div className="mb-6">
+                        
+                        <label htmlFor="businessLiscence" className="block mb-2 text-sm font-medium text-gray-900 dark:">Business Liscence (የንግድ ፍቃድ)</label>
+                    <input onChange={(e) => {setBusiness(e.target.files[0])}}  className="block w-full text-sm text-gray-900 border border-gray-300 rounded cursor-pointer bg-gray-50 p-2.5" aria-describedby="file_input_help" id="file_input" type="file"required/>
+
+                        </div>
+                        <div className="flex items-start mb-3">
                             <div className="flex items-center h-5">
                             <input id="remember" type="checkbox" value="" className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300  dark:focus:ring-blue-600 dark:ring-offset-gray-800" required/>
                             </div>
                             <label htmlFor="remember" className="ms-2 text-sm font-medium text-gray-900">I agree with the <a href="#" className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a>.</label>
                         </div>
+                            <Link to={"/sign-up-as-a-parent"}>
+                              <p className='mb-3 text-blue-600 hover:underline'>ቤተሰብ ኖት? ልጅዎን ያስመዝግቡ</p>
+                            </Link>
 
                         <button onClick={handleUpload} className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='button'>ተመዝገቡ</button>
 
@@ -161,10 +176,7 @@ const Signup = () => {
                     </form>
         </div> ) :
         (
-            <div className="text-center mt-20">
-              <h1 className="text-2xl font-bold text-green-600">Form Submitted</h1>
-              <p className="text-lg mt-4">Thank you for submitting the form!</p>
-            </div>
+           <Submission />
           )}
     </div>
   )

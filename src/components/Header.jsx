@@ -40,7 +40,7 @@ const Header = () => {
 
 
             <div className='hidden md:flex'>
-               <Link to="/sign-in"><motion.button whileHover={{ scale: 1.1 }}
+               <Link to="/sign-up-as-a-parent"><motion.button whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.9 }}    className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝገቡ</motion.button></Link>
             </div>
 
@@ -64,7 +64,7 @@ const Header = () => {
                         <a href="#pricing">Pricing</a>
                     </li>
                     <div className='flex flex-col my-4 gap-4'>
-                    <Link to="/sign-in"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝገቡ</button></Link>
+                    <Link to="/sign-up-as-a-parent"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝገቡ</button></Link>
                     </div>
             </ul>
         </div>      

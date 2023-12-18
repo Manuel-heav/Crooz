@@ -6,6 +6,9 @@ import {
   } from "firebase/storage";
 import { collection, addDoc } from 'firebase/firestore';
 import { storage, db } from '../../util/Firebase';
+import { Link } from 'react-router-dom';
+import Submission from '../../components/shared/Submission';
+import Loader from '../../components/shared/Loader';
 
 const SignIn = () => {
 
@@ -65,15 +68,15 @@ const SignIn = () => {
   return (
     <div className='lg:pt-[20px] px-10 lg:px-80 bg-[#ece2de]'>
         {loading ? (
-        <div className="text-center mt-20">
-          <h1 className="text-2xl font-bold text-gray-700">Uploading...</h1>
-          <p className="text-lg mt-4">Please wait while we process your request.</p>
-        </div>
+        <Loader />
       ) :  !formSubmitted ? (
         
         <div>
               <h1 className='text-center text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-orange-600'>Parent Form Registration</h1>
-              <p className='text-center text-sm mb-10 mt-2'>(We will get back to you shortly)</p> 
+              <p className='text-center text-sm mt-2'>(We will get back to you shortly)</p> 
+              <Link to={"/sign-up-as-a-driver"}>
+                    <p className='text-orange-600 hover:underline text-center mb-10 mt-2 '>Are you a driver? Register here!</p>
+                </Link>
                 <form>
                     <div className="grid gap-6 mb-6 md:grid-cols-2 ">
                         <div>
@@ -132,15 +135,15 @@ const SignIn = () => {
                         </div>
                         <label htmlFor="remember" className="ms-2 text-sm font-medium text-gray-900">I agree with the <a href="#" className="text-blue-600 hover:underline dark:text-blue-500">terms and conditions</a>.</label>
                     </div>
+                    <Link to={"/sign-up-as-a-driver"}>
+                              <p className='mb-3 text-blue-600 hover:underline'>ሹፌር ኖት? እንደ ሹፌር ይመዝገቡ</p>
+                    </Link>
 
                     <button onClick={handleUpload} className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='button'>ተመዝገቡ</button>
                 </form>
           </div>) :
         (
-            <div className="text-center mt-20">
-              <h1 className="text-2xl font-bold text-green-600">Form Submitted</h1>
-              <p className="text-lg mt-4">Thank you for submitting the form!</p>
-            </div>
+           <Submission />
           )}
     </div>
   )

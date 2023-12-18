@@ -11,8 +11,8 @@ function App() {
   return (
     <Routes>
       <Route element={<AuthLayout />}>
-        <Route element={<SignIn />} path="/sign-in"/>
-        <Route element={<Signup />} path="/sign-up"/>
+        <Route element={<SignIn />} path="/sign-up-as-a-parent"/>
+        <Route element={<Signup />} path="/sign-up-as-a-driver"/>
       </Route>
 
       <Route element={<RootLayout />}>

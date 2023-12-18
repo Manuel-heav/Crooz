@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -621,12 +622,12 @@ const About = () => {
                 <p className="mb-8 text-base text-body-color dark:text-dark-6">
                 ወደ ክሩዝ እንኳን በደህና መጡ፣ አስፈላጊ የሆኑ ግንኙነቶችን በመፍጠር እናምናለን። የእኛ ስለ እኛ ጉዞ የሚያጠነጥነው ለደህንነት ቅድሚያ ከሚሰጡ ወላጆች ጋር የተካኑ እና ተንከባካቢ አሽከርካሪዎችን የሚያገናኝ መድረክ በመገንባት ላይ ነው። 
                 </p>
-                <a
-                  href="javascript:void(0)"
+                <Link
+                  to={"/sign-up-as-a-driver"}
                   className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-[orange] hover:bg-opacity-90"
                 >
-                  አሁኑኑ ይመዝገቡ
-                </a>
+                  እንደ ሹፌር ይመዝገቡ
+                </Link>
               </div>
             </div>
           </div>
