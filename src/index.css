@@ -23,6 +23,9 @@
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
 }
+body{
+  zoom: 0.9;
+}
 
 .text-gradient {
   background: radial-gradient(
