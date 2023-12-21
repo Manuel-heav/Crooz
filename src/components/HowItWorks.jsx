@@ -10,7 +10,7 @@ const HowItWorks = () => {
       }, [])
   return (
     <section class="bg-white mb-24" >
-  <div class="py-50 px-2 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-right"
+  <div class="py-50 mx-auto max-w-screen-xl sm:py-16 lg:px-6 px-4 md:px-10" data-aos="fade-right"
         data-aos-duration="2000"
         data-aos-easing="ease-in-out">
       <div class="max-w-screen-md mb-8 lg:mb-16">

@@ -9,20 +9,20 @@ const Accordion = () => {
     })
   }, [])
   return (
-    <section className="relative z-20 overflow-hidden bg-[#d8c2b6] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10" data-aos="fade-left"
+    <section className="relative z-20 overflow-hidden bg-[#DB7C26] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10" data-aos="fade-left"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
             <div className="mx-auto mb-[60px] max-w-[520px] text-center lg:mb-20">
-              <span className="mb-2 block text-lg font-semibold text-primary">
+              <span className="mb-2 block text-lg font-semibold text-primary text-white">
                 FAQ
               </span>
-              <h2 className="mb-4 text-3xl font-bold text-dark sm:text-[40px]/[48px] text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400 amharic">
+              <h2 className="mb-4 text-3xl font-bold text-dark sm:text-[40px]/[48px] text-transparent bg-clip-text text-white amharic">
                 ጥያቄ አሎት?
               </h2>
-              <p className="text-base text-body-color dark:text-dark-6 amharic">
+              <p className="text-base text-body-color dark:text-dark-6 amharic text-white">
               እርስዎ ሊኖሩዎት ከሚችሉት አንዳንድ ጥያቄዎች ጋር የሚዛመዱ መሆናቸውን ለማየት በብዛት የሚጠየቁትን ጥያቄዎቻችንን ይመልከቱ።
               </p>
             </div>
@@ -128,7 +128,7 @@ const AccordionItem = ({ header, text }) => {
         </div>
 
         <div className="w-full">
-          <h4 className="mt-1 text-lg font-semibold text-dark amharic">
+          <h4 className="mt-1 text-lg font-semibold text-dark amharic text-[#DB7C26]">
             {header}
           </h4>
         </div>
