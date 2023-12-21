@@ -10,9 +10,7 @@ const Card = ({offer}) => {
     })
   }, [])
   return (
-    <div className='z-10 bg-[#ede7e4] shadow-lg shadow-orange-300/40 drop-shadow-md overflow-hidden rounded-2xl mr-10  my-4' data-aos="fade-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out">
+    <div className='z-10 bg-[#ede7e4] shadow-lg shadow-orange-300/40 drop-shadow-md overflow-hidden rounded-2xl mr-10  my-4'>
         <img src={offer.linkImg} 
                 className="h-40 w-full object-cover"
         
