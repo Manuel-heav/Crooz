@@ -26,8 +26,8 @@ const Hero = () => {
    before:z-[-5]'>
       <div className='h-[85vh] md:max-w-[1480px] max-w-[600px] m-auto w-full px-4 flex flex-col md:flex-row justify-between items-center md:px-10'>
         <div className='flex-1'>
-          <h2 className="text-transparent bg-clip-text bg-gradient-to-r text-5xl md:mt-0 mt-10 font-extrabold text-gray-950 nokia"> አስተማማኝ ጉዞዎች፣ <span className='text-[#fff] nokia'>ጭንቀት አልባ ወላጆች</span></h2>
-          <h1 class="mb-4 text-3xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl"><span class="text-transparent bg-clip-text bg-gradient-to-r text-black nokia text-gray-950"><span className='text-[#fff] nokia'>የተሻለ እና ምቹ</span> ትራንስፖርት</span></h1>
+          <h2 className="bg-clip-text bg-gradient-to-r text-5xl md:mt-0 mt-10 font-extrabold text-gray-950 nokia"> አስተማማኝ ጉዞዎች፣ <span className='text-[#fff] nokia'>ጭንቀት አልባ ወላጆች</span></h2>
+          <h1 class="mb-4 text-3xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl"><span class="bg-clip-text bg-gradient-to-r nokia text-gray-950"><span className='text-[#fff] nokia'>የተሻለ እና ምቹ</span> ትራንስፖርት</span></h1>
           <p className="my-4 text-xl text-white nokia">
           ክሩዝ ኃላፊነት የሚሰማቸውን አሽርካሪዎች ከወላጆች ጋር በማገናኘት ደህንነቱ የተጠበቀ የትምህርት ቤት መጓጓዣዎችን ያረጋግጣል። ለደህንነት ቅድሚያ በመስጠት፣ የእለት ተእለት ጉዞዎችን በመቀየር እንከን የለሽ እና አስተማማኝ ተሞክሮ ያቀርባል።</p>
           {/* <p className="mb-4 text-lg font-normal text-gray-800 dark:text-[#fff] nokia">ለደህንነት እና ቅልጥፍና ቅድሚያ በመስጠት፣ ለጥሩ መጓጓዣነት ተቀዳሚ ምርጫ ነው።</p> */}
