@@ -13,6 +13,8 @@ const Header = () => {
         closed: { opacity: 0, x: "-100%" },
       }
 
+    
+
   return (
     <div className='w-full h-[80px] bg-white border-b z-[1000] fixed top-0 backdrop-filter backdrop-blur-lg bg-opacity-70'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-10 px-4'>

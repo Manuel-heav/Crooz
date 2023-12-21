@@ -5,7 +5,8 @@ import { motion } from "framer-motion"
 const Hero = () => {
   return (
    <div className='bg-[#ede7e4] py-20 w-full
-   h-screen
+   h-[120vh]
+   md:h-screen
    p-10
    relative
    overflow-hidden
