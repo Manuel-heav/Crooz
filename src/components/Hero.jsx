@@ -11,27 +11,26 @@ const Hero = () => {
    overflow-hidden
    block
    z-10 
-   bg-[url("https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")]
+   bg-[url("https://images.pexels.com/photos/5727775/pexels-photo-5727775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")]
    bg-cover
    bg-no-repeat
-   bg-center
+   bg-top
    before:content-[""]
    before:absolute
    before:inset-0
    before:block
    before:bg-gradient-to-r
-   before:from-black
-   before:to-black
-   before:opacity-80
+   before:from-[#d9a07f]
+   before:to-[#dca689]
+   before:opacity-[0.81]
    before:z-[-5]'>
       <div className='h-[85vh] md:max-w-[1480px] max-w-[600px] m-auto w-full px-4 flex flex-col md:flex-row justify-between items-center md:px-10'>
         <div className='flex-1'>
-          <h2 className="text-transparent bg-clip-text bg-gradient-to-r to-orange-400 from-orange-600 text-5xl md:mt-0 mt-10 font-extrabold nokia"> አስተማማኝ ጉዞዎች፣ <span className='text-[#fff] nokia'>ጭንቀት አልባ ወላጆች</span></h2>
-          <h1 class="mb-4 text-3xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400 nokia"><span className='text-[#fff] nokia'>የተሻለ እና ምቹ</span> ትራንስፖርት</span></h1>
+          <h2 className="text-transparent bg-clip-text bg-gradient-to-r text-5xl md:mt-0 mt-10 font-extrabold text-black nokia"> አስተማማኝ ጉዞዎች፣ <span className='text-[#fff] nokia'>ጭንቀት አልባ ወላጆች</span></h2>
+          <h1 class="mb-4 text-3xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl"><span class="text-transparent bg-clip-text bg-gradient-to-r text-black nokia"><span className='text-[#fff] nokia'>የተሻለ እና ምቹ</span> ትራንስፖርት</span></h1>
           <p className="my-4 text-xl text-white nokia">
           ክሩዝ ኃላፊነት የሚሰማቸውን አሽርካሪዎች ከወላጆች ጋር በማገናኘት ደህንነቱ የተጠበቀ የትምህርት ቤት መጓጓዣዎችን ያረጋግጣል። ለደህንነት ቅድሚያ በመስጠት፣ የእለት ተእለት ጉዞዎችን በመቀየር እንከን የለሽ እና አስተማማኝ ተሞክሮ ያቀርባል።</p>
-          <p className="mb-4 text-lg font-normal text-gray-800 dark:text-[#fff] nokia">ለደህንነት እና ቅልጥፍና ቅድሚያ በመስጠት፣ ለጥሩ መጓጓዣነት ተቀዳሚ ምርጫ ነው።
-</p>
+          {/* <p className="mb-4 text-lg font-normal text-gray-800 dark:text-[#fff] nokia">ለደህንነት እና ቅልጥፍና ቅድሚያ በመስጠት፣ ለጥሩ መጓጓዣነት ተቀዳሚ ምርጫ ነው።</p> */}
           <a href="#" className="inline-flex items-center text-sm px-2 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800' hover:underline">
           Read More
           <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">

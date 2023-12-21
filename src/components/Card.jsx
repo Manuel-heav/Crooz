@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import StarRating from './StarRating'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Card = ({offer}) => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  }, [])
   return (
-    <div className='z-10 bg-[#ede7e4] drop-shadow-md overflow-hidden rounded-2xl mr-10  my-4'>
+    <div className='z-10 bg-[#ede7e4] shadow-lg shadow-orange-300/40 drop-shadow-md overflow-hidden rounded-2xl mr-10  my-4' data-aos="fade-up"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out">
         <img src={offer.linkImg} 
                 className="h-40 w-full object-cover"
         

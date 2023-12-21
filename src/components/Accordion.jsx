@@ -1,8 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const Accordion = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  }, [])
   return (
-    <section className="relative z-20 overflow-hidden bg-[#d8c2b6] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10">
+    <section className="relative z-20 overflow-hidden bg-[#d8c2b6] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10" data-aos="fade-left"
+    data-aos-duration="2000"
+    data-aos-easing="ease-in-out">
       <div className="container mx-auto">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">

@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const HowItWorks = () => {
+    useEffect(() => {
+        AOS.init({
+          duration: 2000
+        })
+      }, [])
   return (
-    <section class="bg-white mb-24">
-  <div class="py-50 px-2 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <section class="bg-white mb-24" >
+  <div class="py-50 px-2 mx-auto max-w-screen-xl sm:py-16 lg:px-6" data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out">
       <div class="max-w-screen-md mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-orange amharic">ክሩዝ እንዴት ነው የሚሰራው?</h2>
           <p class="text-gray-500 sm:text-xl dark:text-gray-400 amharic">ክሩዝ ላይ የምናተኩረው በደህንነት፣ ፈጠራ እና እርካታ ላይ ነው።</p>

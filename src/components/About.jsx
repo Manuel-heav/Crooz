@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom"
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000
+    })
+  }, [])
+
   return (
     <div id="about" className="px-4 md:px-10">
       <section className="overflow-hidden pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] bg-white dark:bg-dark">
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center justify-between -mx-4">
             <div className="w-full px-4 lg:w-6/12">
-              <div className="flex items-center -mx-3 sm:-mx-4">
+              <div className="flex items-center -mx-3 sm:-mx-4" data-aos="fade-up"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out">
                 <div className="w-full px-3 sm:px-4 xl:w-1/2">
                   <div className="py-3 sm:py-4">
                     <img
@@ -608,7 +617,9 @@ const About = () => {
               </div>
             </div>
 
-            <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
+            <div className="w-full px-4 lg:w-1/2 xl:w-5/12" data-aos="fade-down"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-primary">
                   About
@@ -624,7 +635,7 @@ const About = () => {
                 </p>
                 <Link
                   to={"/sign-up-as-a-driver"}
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-[orange] hover:bg-opacity-90"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-[orange] hover:bg-opacity-90 shadow-lg shadow-orange-600/50"
                 >
                   እንደ ሹፌር ይመዝገቡ
                 </Link>
