@@ -170,9 +170,7 @@ const Signup = () => {
                               <p className='mb-3 text-blue-600 hover:underline'>ቤተሰብ ኖት? ልጅዎን ያስመዝግቡ</p>
                             </Link>
 
-                        <button onClick={handleUpload} className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='button'>ተመዝገቡ</button>
-
-
+                        <button onClick={handleUpload} className='px-8 py-3 rounded-md bg-[#ccc] border-sky-100 text-[#DB7C26] font-bold  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='button'>ተመዝገቡ</button>
                     </form>
         </div> ) :
         (
