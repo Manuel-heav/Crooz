@@ -5,7 +5,8 @@ import 'aos/dist/aos.css'
 const Accordion = () => {
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 1000,
+      once: true,
     })
   }, [])
   return (

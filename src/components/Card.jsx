@@ -6,7 +6,8 @@ import 'aos/dist/aos.css'
 const Card = ({offer}) => {
   useEffect(() => {
     AOS.init({
-      duration: 1000
+      duration: 1000,
+      once: true,
     })
   }, [])
   return (

@@ -30,6 +30,10 @@ const Signup = () => {
     const [loading, setLoading] = useState(false); 
     const [formSubmitted, setFormSubmitted] = useState(false);
 
+    const handleSubmit = (e) => {
+        e.preventDefault(); 
+        handleUpload(); 
+    };
 
     const handleUpload = () => {
         const imageInputs = [id, libre, photo, vehicle, business];
@@ -87,7 +91,7 @@ const Signup = () => {
                 <Link to={"/sign-up-as-a-parent"}>
                     <p className='text-orange-600 hover:underline text-center mb-10 mt-2 '>Are you a parent? Register here!</p>
                 </Link>
-                    <form>
+                    <form onSubmit={handleSubmit}>
                         <div className="grid gap-6 mb-6 md:grid-cols-2 ">
                             <div>
                                 <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:">First Name (የመጀመሪያ ስም)</label>
@@ -170,7 +174,7 @@ const Signup = () => {
                               <p className='mb-3 text-blue-600 hover:underline'>ቤተሰብ ኖት? ልጅዎን ያስመዝግቡ</p>
                             </Link>
 
-                        <button onClick={handleUpload} className='px-8 py-3 rounded-md bg-[#ccc] border-sky-100 text-[#DB7C26] font-bold  hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='button'>ተመዝገቡ</button>
+                        <button className='mb-5 py-3 px-6 inline-flex items-center gap-x-2 text-lg font-semibold rounded-lg border border-gray-200 text-orange-500 hover:border-orange-600 hover:text-orange-600 disabled:opacity-50 disabled:pointer-events-none dark:border-gray-700 dark:text-orange-400 dark:hover:text-orange-500 dark:hover:border-orange-600 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600' type='submit'>ተመዝገቡ</button>
                     </form>
         </div> ) :
         (

@@ -25,6 +25,10 @@ const SignIn = () => {
     const [loading, setLoading] = useState(false); 
     const [formSubmitted, setFormSubmitted] = useState(false);
 
+    const handleSubmit = (e) => {
+      e.preventDefault(); 
+      handleUpload(); 
+    };
 
     const handleUpload = () => {
         const imageInputs = [studentPhoto, studentId, parentId];
@@ -77,7 +81,7 @@ const SignIn = () => {
               <Link to={"/sign-up-as-a-driver"}>
                     <p className='text-orange-600 hover:underline text-center mb-10 mt-2 '>Are you a driver? Register here!</p>
                 </Link>
-                <form>
+                <form onSubmit={handleSubmit}>
                     <div className="grid gap-6 mb-6 md:grid-cols-2 ">
                         <div>
                             <label htmlFor="first_name" className="block mb-2 text-sm font-medium text-gray-900 dark:">Student's First Name (የተማሪው የመጀመሪያ ስም)</label>
@@ -139,7 +143,7 @@ const SignIn = () => {
                               <p className='mb-3 text-blue-600 hover:underline'>ሹፌር ኖት? እንደ ሹፌር ይመዝገቡ</p>
                     </Link>
 
-                    <button onClick={handleUpload} className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='button'>ተመዝገቡ</button>
+                    <button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 mb-5' type='submit'>ተመዝገቡ</button>
                 </form>
           </div>) :
         (

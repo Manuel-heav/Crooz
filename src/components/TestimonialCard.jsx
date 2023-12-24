@@ -6,7 +6,8 @@ import 'aos/dist/aos.css'
 const TestimonialCard = ({testimonial}) => {
   useEffect(() => {
     AOS.init({
-      duration: 2000
+      duration: 2000,
+      once: true,
     })
   }, [])
   return (
