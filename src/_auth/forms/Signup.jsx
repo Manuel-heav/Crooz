@@ -21,12 +21,11 @@ const Signup = () => {
     const [email, setEmail] = useState("")
     const [schoolAddress, setSchoolAddress] = useState("")
     const [liscence, setLiscence] = useState("")
-    const [id, setId] = useState(null)
-    const [libre, setLibre] = useState(null)
-    const [photo, setPhoto] = useState(null)
-    const [vehicle, setVehicle] = useState(null)
-    const [business, setBusiness] = useState(null)
-
+    const [id, setId] = useState(null) // id
+    const [libre, setLibre] = useState(null) //libre
+    const [photo, setPhoto] = useState(null) // Car owner's image
+    const [vehicle, setVehicle] = useState(null) //vehichle photo
+    const [business, setBusiness] = useState(null) //business liscence
     const [loading, setLoading] = useState(false); 
     const [formSubmitted, setFormSubmitted] = useState(false);
 
