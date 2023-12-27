@@ -19,6 +19,7 @@ const SignIn = () => {
     const [grade, setGrade] = useState(0)
     const [email, setEmail] = useState("")
     const [schoolAddress, setSchoolAddress] = useState("")
+    const [telegram, setTelegram] = useState("")
     const [studentPhoto, setStudentPhoto] = useState(null)
     const [studentId, setStudentId] = useState(null)
     const [parentId, setParentId] = useState(null)
@@ -55,6 +56,7 @@ const SignIn = () => {
                 phoneNumber: phoneNumber,
                 grade: grade,
                 email: email,
+                telegram: telegram,
                 schoolAddress: schoolAddress,
                 studentPhotoUrl: studentPhotoUrl,
                 studentIdUrl: studentIdUrl,
@@ -107,6 +109,10 @@ const SignIn = () => {
                     <div className="mb-6">
                         <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:">Parents' Email Address (ኢሜይል) (Optional)</label>
                         <input onChange={e=>setEmail(e.target.value)} type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" />
+                    </div> 
+                    <div className="mb-6">
+                        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:">Telegram Username (ቴሌግራም ዩዘር ኔም)</label>
+                        <input onChange={e=>setTelegram(e.target.value)} type="text" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="@johndoe" />
                     </div> 
                     <div className="mb-6">
                         <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:">School Address (የትምህርት ቤት አድራሻ)</label>

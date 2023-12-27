@@ -21,6 +21,7 @@ const Signup = () => {
     const [email, setEmail] = useState("")
     const [schoolAddress, setSchoolAddress] = useState("")
     const [liscence, setLiscence] = useState("")
+    const [telegram, setTelegram] = useState("")
     const [id, setId] = useState(null) // id
     const [libre, setLibre] = useState(null) //libre
     const [photo, setPhoto] = useState(null) // Car owner's image
@@ -60,6 +61,7 @@ const Signup = () => {
                 fullName: fullName,
                 liscence: liscence,
                 phoneNumber: phoneNumber,
+                telegram: telegram,
                 vehicleCapacity: vehicleCapacity,
                 email: email,
                 schoolAddress: schoolAddress,
@@ -121,6 +123,11 @@ const Signup = () => {
                             <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:">Email Address (ኢሜይል)</label>
                             <input onChange={e=>setEmail(e.target.value)} type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="john.doe@company.com" required/>
                         </div> 
+                        <div className="mb-6">
+                        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:">Telegram Username (ቴሌግራም ዩዘር ኔም)</label>
+                        <input onChange={e=>setTelegram(e.target.value)} type="text" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="@johndoe" />
+                    </div> 
+                        
                         <div className="mb-6">
                             <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:">School Address (የትምህርት ቤት አድራሻ)</label>
                             <input onChange={e=>setSchoolAddress(e.target.value)} type="text" id="password" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5  dark: dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Bole" required/>
