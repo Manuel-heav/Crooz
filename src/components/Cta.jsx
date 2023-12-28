@@ -13,20 +13,23 @@ const Cta = () => {
   }, [])
   return (
     <div className='w-full bg-[#efe6e2] py-24'>
-    <div className='md:max-w-[1480px] m-auto grid md:grid-cols-2 gap-8 max-w-[600px] items-center  px-4 md:px-0'>
-        <img src={cta} className="w-[650px] mx-auto" data-aos="fade-up"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"/>
-        <div data-aos="fade-down"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out">
-            <h1 className='py-2  text-3xl font-semibold'>ትልቁን<span className='text-[#DB7C26]'> የኢትዮጵያ ትራንስፖርት አገናኝ ኤጀንሲን</span> ይቀላቀሉ</h1>
-            <p className='py-2 text-lg text-gray-600'>Find Your Ideal Vehicle Now For Your Kids</p>
-            <Link to="/sign-up-as-a-parent"><button className='px-8 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 shadow-lg shadow-orange-600/50'>ተመዝገቡ</button></Link>
+<section class="bg-center bg-no-repeat bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')] bg-[#421f11] bg-blend-multiply">
+    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
+        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">ትልቁን የኢትዮጵያ ትራንስፖርት አገናኝ ኤጀንሲን ይቀላቀሉ</h1>
+        <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">እንደ ሹፌር ወይም እንደ ቤተሰብ ለመመዝገብ ከታች ያለውምን በተን ይጫኑ</p>
+        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
+            <Link to="/sign-up-as-a-driver" class="inline-flex justify-center items-center py-3 px-5 text-lg font-medium text-center text-white rounded-lg bg-[#DB7C26] focus:ring-4 focus:ring-blue-300 dark:focus:ring-orange-900">
+                እንደ ሹፌር ይመዝገቡ
+                <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                </svg>
+            </Link>
+            <Link to="/sign-up-as-a-parent" class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-lg font-medium text-center text-white rounded-lg border border-white hover:bg-[#a87a66] focus:ring-4 focus:ring-gray-400">
+                እንደ ቤተሰብ ይመዝገቡ
+            </Link>  
         </div>
     </div>
-    
-
+</section>
 </div>
   )
 }

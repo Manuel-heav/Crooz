@@ -10,7 +10,7 @@ const Accordion = () => {
     })
   }, [])
   return (
-    <section className="relative z-20 overflow-hidden bg-[#DB7C26] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10" data-aos="fade-left"
+    <section id="faq" className="relative z-20 overflow-hidden bg-[#DB7C26] pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px] px-10" data-aos="fade-left"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out">
       <div className="container mx-auto">
