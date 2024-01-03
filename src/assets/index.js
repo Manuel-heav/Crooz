@@ -28,8 +28,10 @@ import showcase from "./showcase.svg";
 import bus from "./bus.png";
 import girlwalking from "./girlwalking.png";
 import background from "./background.png";
+import bg from "./bg-ai.png";
 
 export {
+  bg,
   showcase,
   quotationMark,
   avatar,

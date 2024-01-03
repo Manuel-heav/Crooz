@@ -1,10 +1,10 @@
 import React from 'react'
-import { bus, ground, background } from '../assets'
+import { bus, ground, background, bg } from '../assets'
 import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
-   <div className='bg-[#ede7e4] py-20 w-full
+   <div className={`bg-[#ede7e4] py-20 w-full
    h-[120vh]
    md:h-screen
    p-10
@@ -12,7 +12,6 @@ const Hero = () => {
    overflow-hidden
    block
    z-10 
-   bg-[url("https://images.pexels.com/photos/5727775/pexels-photo-5727775.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")]
    bg-cover
    bg-no-repeat
    bg-top
@@ -23,8 +22,11 @@ const Hero = () => {
    before:bg-gradient-to-r
    before:from-[#d9a07f]
    before:to-[#dca689]
-   before:opacity-[0.81]
-   before:z-[-5]'>
+   before:opacity-[0.71]
+   before:z-[-5]`} style={{
+    background: `url(${bg})`,
+    backgroundSize: 'cover',
+   }}>
       <div className='h-[85vh] md:max-w-[1480px] max-w-[600px] m-auto w-full px-4 flex flex-col md:flex-row justify-between items-center md:px-10'>
       <div 
        className='flex-2'
