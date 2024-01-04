@@ -13,7 +13,7 @@ const Cta = () => {
   }, [])
   return (
     <div className={`bg-[#ede7e4] py-20 w-full
-   h-[120vh]
+   h-[80vh]
    md:h-screen
    p-10
    relative
@@ -37,8 +37,8 @@ const Cta = () => {
     backgroundPosition: 'center',
    }}>
 <section class="bg-center bg-no-repeat  bg-blend-multiply">
-    <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">ትልቁን የኢትዮጵያ ትራንስፖርት አገናኝ ኤጀንሲን ይቀላቀሉ</h1>
+    <div class="px-4 mx-auto max-w-screen-xl text-center py-20 lg:py-56">
+        <h1 class="mb-4 text-3xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">ትልቁን የኢትዮጵያ ትራንስፖርት አገናኝ ኤጀንሲን ይቀላቀሉ</h1>
         <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">እንደ ሹፌር ወይም እንደ ቤተሰብ ለመመዝገብ ከታች ያለውምን በተን ይጫኑ</p>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <Link to="/sign-up-as-a-driver" class="inline-flex justify-center items-center py-3 px-5 text-lg font-medium text-center text-white rounded-lg bg-[#DB7C26] focus:ring-4 focus:ring-blue-300 dark:focus:ring-orange-900">
