@@ -26,22 +26,22 @@ export const offers = [
     linkImg:
       "https://i.pinimg.com/564x/9d/2a/86/9d2a86f1099ab8cbfeb7c46815db11c3.jpg",
   },
-  {
-    id: 4,
-    title: "Longer Distances, Relatively Uncomfortable",
-    category: "Normal Bus",
-    rating: 2,
-    price: "1200 ETB/month",
-    linkImg:
-      "https://i.pinimg.com/564x/b8/9b/56/b89b56bae00641148e768552a70be5b6.jpg",
-  },
-  {
-    id: 5,
-    title: "Very Comfortable, Preferrable Choice For Students",
-    category: "School Bus",
-    rating: 5,
-    price: "2500 ETB/month",
-    linkImg:
-      "https://i.pinimg.com/564x/b9/e6/79/b9e67978225106245bcaa5cfbac59e24.jpg",
-  },
+  // {
+  //   id: 4,
+  //   title: "Longer Distances, Relatively Uncomfortable",
+  //   category: "Normal Bus",
+  //   rating: 2,
+  //   price: "1200 ETB/month",
+  //   linkImg:
+  //     "https://i.pinimg.com/564x/b8/9b/56/b89b56bae00641148e768552a70be5b6.jpg",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Very Comfortable, Preferrable Choice For Students",
+  //   category: "School Bus",
+  //   rating: 5,
+  //   price: "2500 ETB/month",
+  //   linkImg:
+  //     "https://i.pinimg.com/564x/b9/e6/79/b9e67978225106245bcaa5cfbac59e24.jpg",
+  // },
 ];

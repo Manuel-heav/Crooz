@@ -29,8 +29,10 @@ import bus from "./bus.png";
 import girlwalking from "./girlwalking.png";
 import background from "./background.png";
 import bg from "./bg-ai.png";
+import bg2 from "./bg-ai2.png";
 
 export {
+  bg2,
   bg,
   showcase,
   quotationMark,
