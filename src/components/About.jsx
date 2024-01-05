@@ -625,18 +625,18 @@ const About = () => {
                 <span className="block mb-4 text-lg font-semibold text-primary">
                   About
                 </span>
-                <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px]">
+                <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px] amharic">
                 <span className="text-[orange]">አስተማማኝ ጉዞዎች፣ </span>ደስተኛ ቤተሰቦች።
                 </h2>
-                <p className="mb-5 text-base text-body-color dark:text-dark-6">
+                <p className="mb-5 text-base text-body-color dark:text-dark-6 amharic">
                 Crooz የሚመራው ለቤተሰቦች መጓጓዣን ለመለወጥ ባለው ቁርጠኝነት ነው። ታሪካችን የሚጀምረው ለልጆቻቸው የመጓጓዣ ፍላጎት አስተማማኝ መፍትሄ የሚፈልጉ ወላጆች ህጻናቶችን ከሚንከባከቡ አሽከርካሪዎችን የማገናኘት ፍላጎት ነው።
                 </p>
-                <p className="mb-8 text-base text-body-color dark:text-dark-6">
+                <p className="mb-8 text-base text-body-color dark:text-dark-6 amharic">
                 ወደ ክሩዝ እንኳን በደህና መጡ፣ አስፈላጊ የሆኑ ግንኙነቶችን በመፍጠር እናምናለን። የእኛ ስለ እኛ ጉዞ የሚያጠነጥነው ለደህንነት ቅድሚያ ከሚሰጡ ወላጆች ጋር የተካኑ እና ተንከባካቢ አሽከርካሪዎችን የሚያገናኝ መድረክ በመገንባት ላይ ነው። 
                 </p>
                 <Link
                   to={"/sign-up-as-a-driver"}
-                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-[orange] hover:bg-opacity-90 shadow-lg shadow-orange-600/50"
+                  className="inline-flex items-center justify-center py-3 text-base font-medium text-center text-white border border-transparent rounded-md px-7 bg-[orange] hover:bg-opacity-90 shadow-lg shadow-orange-600/50 amharic"
                 >
                   እንደ ሹፌር ይመዝገቡ
                 </Link>
