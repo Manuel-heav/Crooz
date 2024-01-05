@@ -9,9 +9,9 @@ const Hero = () => {
       <div className='h-[75vh] md:max-w-[1480px] max-w-[600px] m-auto w-full px-4 flex flex-col md:flex-row justify-between items-center md:px-10'>
       
         <div className='flex-1'>
-          <h2 className="bg-clip-text bg-gradient-to-r text-2xl md:text-5xl md:mt-0 mt-10 font-extrabold text-[#fff] nokia"> አስተማማኝ ጉዞዎች፣ ጭንቀት አልባ ወላጆች</h2>
-          <h1 class="mb-4 text-2xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl">የተሻለ እና ምቹ ትራንስፖርት</h1>
-          <p className="my-4 text-md md:text-xl text-white nokia">
+          <h2 className="bg-clip-text bg-gradient-to-r text-2xl md:text-5xl md:mt-0 mt-10 font-extrabold text-[#fff] amharic"> አስተማማኝ ጉዞዎች፣ ደስተኛ ወላጆች</h2>
+          <h1 class="mb-4 text-2xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl amharic">የተሻለ እና ምቹ ትራንስፖርት</h1>
+          <p className="my-4 text-md md:text-xl text-white amharic">
           ክሩዝ ኃላፊነት የሚሰማቸውን አሽርካሪዎች ከወላጆች ጋር በማገናኘት ደህንነቱ የተጠበቀ የትምህርት ቤት መጓጓዣዎችን ያረጋግጣል። ለደህንነት ቅድሚያ በመስጠት፣ የእለት ተእለት ጉዞዎችን በመቀየር እንከን የለሽ እና አስተማማኝ ተሞክሮ ያቀርባል።</p>
           {/* <p className="mb-4 text-lg font-normal text-gray-800 dark:text-[#fff] nokia">ለደህንነት እና ቅልጥፍና ቅድሚያ በመስጠት፣ ለጥሩ መጓጓዣነት ተቀዳሚ ምርጫ ነው።</p> */}
           <a href="#faq" className="inline-flex items-center text-sm px-2 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800' hover:underline">
