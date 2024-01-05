@@ -189,14 +189,14 @@ body{
 
  @font-face{
   font-family: "nokia";
-  src:  url('../public/font/Nokia\ Pureheadline\ Bold.ttf');
+  src:  url('/font/Nokia\ Pureheadline\ Bold.ttf');
   font-display: swap;
- }
- @font-face{
+}
+@font-face{
   font-family: "ethiopia";
-  src: url('../public/font/ETHIOPIA.TTF');
+  src: url('/font/ETHIOPIA.TTF');
   font-display: swap;
- }
+}
 
  .amharic{
   font-family: "nokia";
