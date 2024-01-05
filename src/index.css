@@ -188,22 +188,22 @@ body{
  }
 
  @font-face{
-  font-family: nokia;
-  src: url('/public/Nokia\ Pureheadline\ Bold.ttf');
+  font-family: "nokia";
+  src: local('nokia'), url(/public/Nokia\ Pureheadline\ Bold.ttf);
   font-display: swap;
  }
  @font-face{
-  font-family: ethiopia;
-  src: url('/public/ETHIOPIA.TTF');
+  font-family: "ethiopia";
+  src:local('ethiopia'), url('/public/ETHIOPIA.TTF');
   font-display: swap;
  }
 
  .amharic{
-  font-family: nokia;
+  font-family: "nokia";
  }
 
  .nokia{
-  font-family: ethiopia;
+  font-family: "ethiopia";
  }
 
  /* Scroll Bar */
