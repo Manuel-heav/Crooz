@@ -16,7 +16,7 @@ const Header = () => {
     
 
   return (
-    <div className='w-full h-[80px] bg-[#DB7C26] z-[1000] fixed top-0 backdrop-filter backdrop-blur-lg bg-opacity-70'>
+    <div className='w-full h-[80px] bg-orange-500 z-[1000] fixed top-0 backdrop-filter backdrop-blur-lg bg-opacity-90'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-10 px-4'>
             
             <Link to="/">
