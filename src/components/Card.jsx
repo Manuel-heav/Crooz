@@ -17,12 +17,12 @@ const Card = ({offer}) => {
         
         />
         <div className='p-5 border border-b'>
-            <h1 className='py-2 truncate'>{offer.title}</h1>
+            <h1 className='py-2 truncate amharic'>{offer.title}</h1>
             <StarRating rating={offer.rating}/>
         </div>
         {/* <h3 className='p-5 text-xl'>{offer.price}</h3>s */}
 
-        <div className='absolute top-0 bg-white m-3 px-2 py-[2.5px] rounded font-bold'>
+        <div className='absolute top-0 bg-white m-3 px-2 py-[2.5px] rounded font-bold amharic'>
             {offer.category}
         </div>
     </div>

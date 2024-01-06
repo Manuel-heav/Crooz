@@ -9,13 +9,13 @@ const Hero = () => {
       <div className='h-[75vh] md:max-w-[1480px] max-w-[600px] m-auto w-full px-4 flex flex-col md:flex-row justify-between items-center md:px-10'>
       
         <div className='flex-1'>
-          <h2 className="bg-clip-text bg-gradient-to-r text-2xl md:text-5xl md:mt-0 mt-10 font-extrabold text-[#fff] amharic"> አስተማማኝ ጉዞዎች፣ ደስተኛ ወላጆች</h2>
+          <h2 className="bg-clip-text bg-gradient-to-r text-2xl md:text-5xl md:mt-0 mt-10 font-extrabold text-[#fff] amharic">አስተማማኝ ጉዞዎች፣ ደስተኛ ወላጆች</h2>
           <h1 class="mb-4 text-2xl font-extrabold text-[#fff] dark:text-white md:text-6xl lg:text-7xl amharic">የተሻለ እና ምቹ ትራንስፖርት</h1>
           <p className="my-4 text-md md:text-xl text-white amharic">
-          ክሩዝ ኃላፊነት የሚሰማቸውን አሽርካሪዎች ከወላጆች ጋር በማገናኘት ደህንነቱ የተጠበቀ የትምህርት ቤት መጓጓዣዎችን ያረጋግጣል። ለደህንነት ቅድሚያ በመስጠት፣ የእለት ተእለት ጉዞዎችን በመቀየር እንከን የለሽ እና አስተማማኝ ተሞክሮ ያቀርባል።</p>
+          ክሩዝ ሀላፊነት የሚሰማቸውን አሽከርካሪዎች ከወላጆች ጋር በማገናኘት ደህንነቱ የተጠበቀ የጉዞ አገልግሎትን ይሰጣል። ደህንነትን በማስቀደም የእለት ተእለት የተማሪዋች ጉዞ ምቹና ተመራጭ እንዲሆኑ ያደርጋል።</p>
           {/* <p className="mb-4 text-lg font-normal text-gray-800 dark:text-[#fff] nokia">ለደህንነት እና ቅልጥፍና ቅድሚያ በመስጠት፣ ለጥሩ መጓጓዣነት ተቀዳሚ ምርጫ ነው።</p> */}
-          <a href="#faq" className="inline-flex items-center text-sm px-2 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800' hover:underline">
-          Read More
+          <a href="#faq" className="inline-flex items-center text-sm px-2 py-3 rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800 hover:underline amharic">
+          ተጨማሪ ያንብቡ
           <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
           </svg>  

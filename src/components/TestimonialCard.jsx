@@ -16,7 +16,7 @@ const TestimonialCard = ({testimonial}) => {
     data-aos-easing="ease-in-out">
       <div className='flex justify-between'>
         <div className='flex gap-4'>
-                <img src={testimonial.profileImg} className='h-10 w-10 rounded-full'/>
+                <img src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png" className='h-10 w-10 rounded-full'/>
                 <div>
                     <h1>{testimonial.name}</h1>
                     <p>{testimonial.school}</p>

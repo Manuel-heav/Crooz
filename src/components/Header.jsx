@@ -16,25 +16,25 @@ const Header = () => {
     
 
   return (
-    <div className='w-full h-[80px] bg-orange-500 z-[1000] fixed top-0 backdrop-filter backdrop-blur-lg bg-opacity-90'>
+    <div className='w-full h-[80px] bg-white z-[1000] fixed top-0 backdrop-filter backdrop-blur-lg bg-opacity-90'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center md:px-10 px-4'>
             
             <Link to="/">
-                <h1  className="text-3xl font-extrabold text-[#fff]">Crooz</h1>
+                <h1  className="text-3xl font-extrabold text-orange-600">Crooz</h1>
             </Link>
             
             <div className='hidden md:flex items-center '>
                 <ul className='flex gap-4'>
-                    <li className='hover:scale-[1.15] transition duration-400 ease-in-out text-[#fff]'>
+                    <li className='hover:scale-[1.15] transition duration-400 ease-in-out text-orange-600'>
                         <Link to="/">Home</Link>
                     </li>
-                    <li className='hover:scale-[1.15] transition duration-400 700 ease-in-out text-[#fff]'>
+                    <li className='hover:scale-[1.15] transition duration-400 700 ease-in-out text-orange-600'>
                         <a href="#about">About</a>
                     </li>
-                    <li className='hover:scale-[1.15] transition duration-400 700 ease-in-out text-[#fff]'>
+                    <li className='hover:scale-[1.15] transition duration-400 700 ease-in-out text-orange-600'>
                         <a href="#testimonial">Testimonial</a>
                     </li>
-                    <li className='hover:scale-[1.15] transition duration-400 700 ease-in-out text-[#fff]'>
+                    <li className='hover:scale-[1.15] transition duration-400 700 ease-in-out text-orange-600'>
                         <a href="#pricing">Pricing</a>
                     </li>
                 </ul>
@@ -43,7 +43,7 @@ const Header = () => {
 
             <div className='hidden md:flex'>
                <Link to="/sign-up-as-a-parent"><motion.button whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }}    className='inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-lg font-medium text-center text-[#DB7C26] bg-white rounded-lg border border-white  focus:ring-4 focus:ring-gray-400 amharic'>ተመዝገቡ</motion.button></Link>
+    whileTap={{ scale: 0.9 }}    className='inline-flex items-center px-5 py-3 text-lg rounded-md bg-[#DB7C26] text-white font-bold bg-gradient-to-br from-orange-600 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-orange-800'>ተመዝገቡ</motion.button></Link>
             </div>
 
             <div className='md:hidden'  onClick={handleClick}>

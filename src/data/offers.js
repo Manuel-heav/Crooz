@@ -1,8 +1,8 @@
 export const offers = [
   {
     id: 1,
-    title: "The most common option: Taxi",
-    category: "Taxi",
+    title: "ታዋቂው ምርጫ",
+    category: "ታክሲ",
     rating: 4,
     price: "1000 ETB/month",
     linkImg:
@@ -10,8 +10,8 @@ export const offers = [
   },
   {
     id: 2,
-    title: "Smaller amount of students",
-    category: "Lada",
+    title: "አነስተኛ የተማሪ ቁጥር",
+    category: "ላዳ",
     rating: 3,
     price: "1500 ETB/month",
     linkImg:
@@ -19,8 +19,8 @@ export const offers = [
   },
   {
     id: 3,
-    title: "More Comfortable Option For Children",
-    category: "Ride",
+    title: "ለህፃናት እጅግ ምቹ አማራጭ",
+    category: "ራይድ",
     rating: 5,
     price: "2000 ETB/month",
     linkImg:

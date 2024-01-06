@@ -623,16 +623,16 @@ const About = () => {
         data-aos-easing="ease-in-out">
               <div className="mt-10 lg:mt-0">
                 <span className="block mb-4 text-lg font-semibold text-primary">
-                  About
+                  ስለ እኛ
                 </span>
                 <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px] amharic">
-                <span className="text-[orange]">አስተማማኝ ጉዞዎች፣ </span>ደስተኛ ቤተሰቦች።
+                <span className="text-[orange]">ለልጆ አስተማማኝ መንገድ  </span>ወደ እውቀት።
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6 amharic">
-                Crooz የሚመራው ለቤተሰቦች መጓጓዣን ለመለወጥ ባለው ቁርጠኝነት ነው። ታሪካችን የሚጀምረው ለልጆቻቸው የመጓጓዣ ፍላጎት አስተማማኝ መፍትሄ የሚፈልጉ ወላጆች ህጻናቶችን ከሚንከባከቡ አሽከርካሪዎችን የማገናኘት ፍላጎት ነው።
+                ታሪካችን የሚጀምረው ለተማሪዎቻቸው አስተማማኝ የጉዞ መፍትሄ የሚሹ ቤተሰቦችን ሃላፊነት ከሚሰማቸው ሾፌሮች ጋር ለማገናኘት ካለ ፍላጎት ነው። 
                 </p>
                 <p className="mb-8 text-base text-body-color dark:text-dark-6 amharic">
-                ወደ ክሩዝ እንኳን በደህና መጡ፣ አስፈላጊ የሆኑ ግንኙነቶችን በመፍጠር እናምናለን። የእኛ ስለ እኛ ጉዞ የሚያጠነጥነው ለደህንነት ቅድሚያ ከሚሰጡ ወላጆች ጋር የተካኑ እና ተንከባካቢ አሽከርካሪዎችን የሚያገናኝ መድረክ በመገንባት ላይ ነው። 
+                ወደ ክሩዝ እንኳን በደህና መጡ፣ ጠንካራ ግንኙነቶችን በመፍጠር እናምናለን። ደህንነትን በማስቀደም ለተማሪዎች የተሻለ እና ምቹ የትራንስፖርት አግልግሎት እንሰጣለን፡፡
                 </p>
                 <Link
                   to={"/sign-up-as-a-driver"}
