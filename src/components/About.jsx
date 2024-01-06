@@ -622,11 +622,11 @@ const About = () => {
         data-aos-duration="2000"
         data-aos-easing="ease-in-out">
               <div className="mt-10 lg:mt-0">
-                <span className="block mb-4 text-lg font-semibold text-primary">
+                <span className="block mb-4 text-2xl font-semibold text-primary">
                   ስለ እኛ
                 </span>
-                <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px] amharic">
-                <span className="text-[orange]">ለልጆ አስተማማኝ መንገድ  </span>ወደ እውቀት።
+                <h2 className="mb-5 text-3xl font-bold text-dark sm:text-[40px]/[48px] text-[orange] amharic">
+                ለልጆ አስተማማኝ መንገድ ወደ እውቀት።
                 </h2>
                 <p className="mb-5 text-base text-body-color dark:text-dark-6 amharic">
                 ታሪካችን የሚጀምረው ለተማሪዎቻቸው አስተማማኝ የጉዞ መፍትሄ የሚሹ ቤተሰቦችን ሃላፊነት ከሚሰማቸው ሾፌሮች ጋር ለማገናኘት ካለ ፍላጎት ነው። 

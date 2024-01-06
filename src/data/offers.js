@@ -1,7 +1,7 @@
 export const offers = [
   {
     id: 1,
-    title: "ታዋቂው ምርጫ",
+    title: "ብዙ ወላጆች የሚመርጡት",
     category: "ታክሲ",
     rating: 4,
     price: "1000 ETB/month",

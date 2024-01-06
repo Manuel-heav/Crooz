@@ -50,7 +50,7 @@ const Testimonial = () => {
         <div className='md:max-w-[1480px] m-auto max-w-[600px]  px-4 md:px-10' data-aos="fade-up">
             <div className='py-4'>
             <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl"><span class="text-transparent bg-clip-text bg-gradient-to-r to-orange-600 from-orange-400 py-3 text-5xl font-bold amharic">የወላጆች አስተያየት</span></h1>
-              <p className='text-[#6D737A] amharic'>ወላጆች ስለ ክሩዝ ምን ይላሉ፡፡</p>
+              <p className='text-[#000] amharic'>ወላጆች ስለ ክሩዝ ምን ይላሉ፡፡</p>
             </div>
             
 
