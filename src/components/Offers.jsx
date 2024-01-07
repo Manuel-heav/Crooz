@@ -17,7 +17,7 @@ const Offers = () => {
         slidesToShow: 2,
         slidesToScroll: 1,
         infinite: false,
-        dots: true
+        dots: true,
       }
     },
     {
